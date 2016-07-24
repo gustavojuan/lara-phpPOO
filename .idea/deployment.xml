@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="PublishConfigData" serverName="lara-phpPOO">
+    <serverData>
+      <paths name="lara-phpPOO">
+        <serverdata>
+          <mappings>
+            <mapping local="$PROJECT_DIR$" web="lara-phpPOO/lara-phpPOO" />
+          </mappings>
+        </serverdata>
+      </paths>
+    </serverData>
+  </component>
+</project>
