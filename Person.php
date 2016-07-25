@@ -7,8 +7,8 @@
  * Time: 18:25
  */
 class Person {
-	public $name;
-	public $age;
+	private $name;
+	private $age;
 
 
 	public function __construct($name)
@@ -18,7 +18,7 @@ class Person {
 	public function setAge($age)
 	{
 		if ($age < 18){
-			throw new Exception("Person is less than 18");
+			throw new Exception("Person is not old enough.");
 		}
 		$this->age = $age;
 	}
@@ -30,7 +30,11 @@ class Person {
 
 $john = new Person('John Doe');
 $john->setAge(18);
-/*$john->age = 30;
-$john->age++;*/
+
+
+
+
+//$john->age++;
 
 var_dump($john->getAge());
+$john->age = 30;
